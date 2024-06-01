@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title='Portifólio - Gustavo Vieira', layout='wide')
+st.set_page_config(page_title='Portifólio - Gustavo Vieira', layout='wide', initial_sidebar_state='collapsed')
 
 with st.container(border=True):
     col1, col2, col3 = st.columns([0.15, 0.425, 0.425])
@@ -51,7 +51,7 @@ with col2.container(border=True):
 
 with col1.container(border=True):
     st.subheader('Portifólio:')
-    st.write('**Obtenha mais informações de alguns dos meus projetos nas páginas presentes na aba lateral desta aplicação.**')
+    st.write('**Obtenha mais informações de alguns dos meus projetos nas páginas presentes na aba lateral desta aplicação. (Abrir sidebar no canto superior esquerdo)**')
     st.subheader('Diplomas:')
     st.write('**Acesse os diplomas dos cursos concluídos na escola de programação Asimov Academy no link abaixo**')
     st.write('**https://drive.google.com/drive/folders/1mpSJNjLfYNwcqq34K3P1EH23WuFuHnLd?usp=drive_link**')
