@@ -1,4 +1,4 @@
-# Portifóio Pessoal Online
+# Portifólio Pessoal Online
 
 Pequeno Projeto desenvolvido como forma de apresentar algumas informações sobre mim e alguns projetos
 
